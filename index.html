@@ -228,9 +228,6 @@
             </div>
         </div>
         <!-- Add the <img> element here with your desired image source -->
-        <div class="col-md-3">
-            <img src="assets\img\back.jpg" >
-        </div>
     </div>
 </section>
 
@@ -1031,15 +1028,11 @@
     padding-top: 0;
     position: relative;
   }
-.intro.section {
+  #intro.section {
+    background: url('https://fastly.picsum.photos/id/9/5000/3269.jpg?hmac=cZKbaLeduq7rNB8X-bigYO8bvPIWtT-mh8GRXtU3vPc');
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-size: cover; /* This will resize the image to cover the entire element */
     position: relative;
-    overflow: hidden; /* Hide any overflowing content of the img */
-}
-
-.intro.section img {
-    width: 100%; /* Make the image fill the entire container */
-    height: auto; /* Maintain the aspect ratio of the image */
-    object-fit: cover; /* Scale the image while preserving its aspect ratio */
 }
 
 
